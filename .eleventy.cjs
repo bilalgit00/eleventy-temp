@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addFilter("htmlBaseUrl", function(value) {
-        return value ? new URL(value).origin : "";
-    });
+  // Define the htmlBaseUrl filter
+  eleventyConfig.addFilter("htmlBaseUrl", function(value) {
+    return value ? new URL(value).origin : "";
+  });
 };

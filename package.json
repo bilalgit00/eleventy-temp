@@ -1,6 +1,8 @@
 {
-  "scripts": {
-    "build": "node debug-build.js && npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet"
+  "name": "eleventy-temp",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.0.10"
   }
 }

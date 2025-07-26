@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
-  // Copy admin folder
-  eleventyConfig.addPassthroughCopy("admin");
+  // Alternative way to specify copying the admin folder
+  eleventyConfig.addPassthroughCopy({ "admin": "admin" });
   
   // Copy other assets
   eleventyConfig.addPassthroughCopy("src/images");
